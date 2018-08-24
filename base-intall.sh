@@ -4,29 +4,32 @@ echo "Install Xcose"
 xcode-select --install
 
 echo "Install Homebrew"
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-brew tap homebrew/science
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Install command line tools"
 brew install wget
 brew install tree
 brew install git
 brew install vim
-
+brew install curl
 brew install checksum
 brew install shellcheck
 brew install jq
 brew install jsonlint
 brew install cvskit
 brew install rsync
-
+brew install coreutils
 brew install netcat
 brew install tcpdump
+brew install openssl
 brew install bzip2
 brew install parallel
 brew install zsh
 brew install oh-my-zsh
 brew install ack
+brew install watch
+brew install watchman
+
 
 echo "Install Postgres SQL"
 brew install postgresql
@@ -48,6 +51,10 @@ brew install awscli
 
 echo "Install lastpass cli"
 brew install lastpass-cli --with-pinentry --with-doc
+
+echo "Install Ansible"
+brew install ansible
+brew install ansible-lint
 
 # Development
 echo "Install development tools"
