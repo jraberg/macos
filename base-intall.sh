@@ -12,11 +12,11 @@ brew install tree
 brew install git
 brew install vim
 brew install curl
-brew install checksum
+brew install md5deep
 brew install shellcheck
 brew install jq
 brew install jsonlint
-brew install cvskit
+brew install csvkit
 brew install rsync
 brew install coreutils
 brew install netcat
