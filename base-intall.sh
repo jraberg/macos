@@ -48,6 +48,13 @@ brew install mysql
 echo "Install Golang"
 brew install go
 
+echo "Installing Python"
+brew install python
+pip3 install --upgrade setuptools
+pip3 install --upgrade pip
+pip3 install virtualenv
+pip3 install virtualenvwrapper
+
 echo "Install command node and tools"
 brew install node
 node -v
