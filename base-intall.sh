@@ -35,9 +35,15 @@ brew install watchman
 
 echo "Install zsh extention oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+npm install -g spaceship-prompt
+brew tap caskroom/fonts
+brew cask install font-fira-code
 
 echo "Install Postgres SQL"
 brew install postgresql
+
+echo "Install MySQL"
+brew install mysql
 
 echo "Install Golang"
 brew install go
