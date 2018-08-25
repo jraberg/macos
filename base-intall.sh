@@ -39,7 +39,11 @@ brew install go
 
 echo "Install command node and tools"
 brew install node
+node -v
 brew install nvm
+npm install -g npm
+npm -v
+npm install -g typescript
 brew install yarn
 brew install prettier
 
@@ -88,14 +92,13 @@ brew cask install --appdir="/Applications" lastpass
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" cheetshet
-brew cask install --appdir="/Applications" lastpass
 brew cask install --appdir="/Applications" spotify
 
 # link Alfred
 brew cask alfred link
 
 # Cleanup
-brew cleanup --force
+brew cleanup 
 rm -f -r /Library/Caches/Homebrew/*
 
 
