@@ -117,10 +117,8 @@ brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" spotify
 
-# link Alfred
-brew cask alfred link
-
 # Cleanup
+echo "===> Cleaning up..."
 brew cleanup
 rm -f -r /Library/Caches/Homebrew/*
 
