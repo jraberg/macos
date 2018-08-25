@@ -7,7 +7,7 @@ echo "Install Homebrew"
 if [[ ! -x "/usr/local/bin/brew" ]]; then
    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-   echo "homebrew already installed."
+   echo "homebrew allready installed."
 fi
 
 echo "Install command line tools"
