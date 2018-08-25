@@ -39,6 +39,9 @@ npm install -g spaceship-prompt
 brew tap caskroom/fonts
 brew cask install font-fira-code
 
+echo "Install Homebrew services"
+brew tap homebrew/services
+
 echo "Install Postgres SQL"
 brew install postgresql
 
