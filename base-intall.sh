@@ -29,11 +29,12 @@ brew install openssl
 brew install bzip2
 brew install parallel
 brew install zsh
-brew install oh-my-zsh
 brew install ack
 brew install watch
 brew install watchman
 
+echo "Install zsh extention oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "Install Postgres SQL"
 brew install postgresql
