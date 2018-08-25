@@ -56,6 +56,9 @@ echo "Install Ansible"
 brew install ansible
 brew install ansible-lint
 
+# Install zsh theme
+npm install -g spaceship-prompt
+
 # Development
 echo "Install development tools"
 brew cask install --appdir="/Applications" iterm2
